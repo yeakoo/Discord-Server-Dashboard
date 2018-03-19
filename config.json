@@ -1,0 +1,6 @@
+{
+    "bot_token": "<Your_Token",
+    "guild_id": "<Your_Guild_Id>",
+    "default_channel_id": "<Channel_Id",
+    "undefinedPic": "https://cdn3.iconfinder.com/data/icons/avatars-9/145/Avatar_Robot-512.png"
+}

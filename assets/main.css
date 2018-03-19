@@ -1,0 +1,67 @@
+@keyframes anim {
+    0% {
+        transform: rotate(0deg);
+        filter: grayscale(0%);
+        width: 70px;
+    }
+    100% {
+        transform: rotate(360deg);
+        filter: grayscale(100%);
+        width: 50px;
+    }
+}
+
+.contain {
+    margin: 0 auto;
+    margin-top: 5%;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    width: 37%;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    -webkit-transition: all 1s ease-in-out;
+}
+
+.contain:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.user {
+    vertical-align: middle;
+    border-radius: 5px;
+    width: 70px;
+    margin: 0px 22px 22px 22px;
+    -webkit-transition: all 0.5s ease;
+}
+
+.user:hover {
+    cursor: pointer;
+}
+
+.user {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+}
+
+.user span {
+    display: block;
+}
+
+.manageimg {
+    width: 8vw;
+    margin: 5px;
+}
+
+.anim {
+    -webkit-animation-name: anim;
+    -webkit-animation-duration: 0.8s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-out;
+    -webkit-animation-fill-mode: forwards;
+}
+
+.back {
+    text-align: left;
+}
